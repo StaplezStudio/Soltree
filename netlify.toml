@@ -1,5 +1,5 @@
 [build]
-  publish = "client/dist"
+  publish = "dist/public"
   command = "npm run build:netlify"
 
 [build.environment]
