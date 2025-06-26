@@ -374,7 +374,7 @@ function MerkleTreeCreator() {
         <div className="text-center mb-8">
           <div className="mb-4">
             <button
-              onClick={() => window.open('https://github.com/yourusername/soltreez', '_blank')}
+              onClick={() => window.open('https://github.com/StaplezStudio/Soltree/', '_blank')}
               className="inline-flex items-center px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-md text-sm font-medium transition-colors"
             >
               📦 View on GitHub
