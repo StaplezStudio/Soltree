@@ -1,0 +1,20 @@
+[build]
+  publish = "client/dist"
+  command = "npm run build:netlify"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production]
+  command = "npm run build:netlify"
+
+[context.deploy-preview]
+  command = "npm run build:netlify"
+
+[context.branch-deploy]
+  command = "npm run build:netlify"
